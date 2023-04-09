@@ -1,0 +1,153 @@
+<! -- 
+@autor: Alessandra Bayot 
+ide: VisualStudioCode 
+XML
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <compra>
+    <seccion>Pasta</seccion>
+    <tipo>
+      <nombre>Espaguetti</nombre>
+      <productos>
+        <nombre>DIA Espaguetis al diante</nombre>
+        <descripcion>Espaguetis pasta, precio normal 1.18</descripcion>
+        <precio>1.00</precio>
+        <periodoVigencia>12/12/2023</periodoVigencia>
+        <oferta>true</oferta>
+        <adquirido>false</adquirido>
+        <supermercado>
+          <nombre>DIA</nombre>
+          <direccion>Calle Jacinto Benavente</direccion>
+          <provincia>Madrid</provincia>
+        </supermercado>
+      </productos>
+      <productos>
+        <nombre>Hacendado Espaguetti pasta</nombre>
+        <descripcion>Paquete 1kg</descripcion>
+        <precio>1.18</precio>
+        <periodoVigencia>25/12/2023</periodoVigencia>
+        <oferta>false</oferta>
+        <adquirido>false</adquirido>
+        <supermercado>
+          <nombre>Mercadona</nombre>
+          <direccion>Calle Lerida</direccion>
+          <provincia>Madrid</provincia>
+        </supermercado>
+      </productos>
+      <productos>
+        <nombre>Tallarines</nombre>
+        <descripcion>Paquete 500g</descripcion>
+        <precio>0.79</precio>
+        <periodoVigencia>12/11/2023</periodoVigencia>
+        <oferta>false</oferta>
+        <adquirido>false</adquirido>
+        <supermercado>
+          <nombre>Eroski</nombre>
+          <direccion>Calle Sancho Davila</direccion>
+          <provincia>Madrid</provincia>
+        </supermercado>
+      </productos>
+      <nombre>Macarrones</nombre>
+      <productos>
+        <nombre>DIA Macarrones al diante</nombre>
+        <descripcion>Paquete 500g</descripcion>
+        <precio>0.82</precio>
+        <periodoVigencia>12/12/2023</periodoVigencia>
+        <oferta>false</oferta>
+        <adquirido>false</adquirido>
+        <supermercado>
+          <nombre>DIA</nombre>
+          <direccion>Calle Jacinto Benavente</direccion>
+          <provincia>Madrid</provincia>
+        </supermercado>
+      </productos>
+      <productos>
+        <nombre>Hacendado Macarron pasta</nombre>
+        <descripcion>Paquete 1kg</descripcion>
+        <precio>1.24</precio>
+        <periodoVigencia>12/11/2023</periodoVigencia>
+        <oferta>false</oferta>
+        <adquirido>false</adquirido>
+        <supermercado>
+          <nombre>Mercadona</nombre>
+          <direccion>Calle Lerida</direccion>
+          <provincia>Madrid</provincia>
+        </supermercado>
+      </productos>
+    </tipo>
+  </compra>
+  <compra>
+    <seccion>Fruta</seccion>
+    <tipo>
+      <nombre>Manzanas</nombre>
+      <productos>
+        <nombre>Manzana Golden</nombre>
+        <descripcion>Paquete 1kg</descripcion>
+        <precio>1.95</precio>
+        <periodoVigencia>21/04/2023</periodoVigencia>
+        <oferta>false</oferta>
+        <adquirido>true</adquirido>
+        <supermercado>
+          <nombre>DIA</nombre>
+          <direccion>Calle Jacinto Benavente</direccion>
+          <provincia>Madrid</provincia>
+        </supermercado>
+      </productos>
+      <productos>
+        <nombre>Manzana Golden Carrefour</nombre>
+        <descripcion>Paquete 1.5kg</descripcion>
+        <precio>2.39</precio>
+        <periodoVigencia>20/04/2023</periodoVigencia>
+        <oferta>false</oferta>
+        <adquirido>false</adquirido>
+        <supermercado>
+          <nombre>Carrefour</nombre>
+          <direccion>Glorieta de Cuatro Caminos</direccion>
+          <provincia>Madrid</provincia>
+        </supermercado>
+      </productos>
+      <productos>
+        <nombre>Manzana Fuji</nombre>
+        <descripcion>Paquete 1kg</descripcion>
+        <precio>2.19</precio>
+        <periodoVigencia>31/04/2023</periodoVigencia>
+        <oferta>false</oferta>
+        <adquirido>false</adquirido>
+        <supermercado>
+          <nombre>Carrefour</nombre>
+          <direccion>Glorieta de Cuatro Caminos</direccion>
+          <provincia>Madrid</provincia>
+        </supermercado>
+      </productos>
+      <nombre>Platanos</nombre>
+      <productos>
+        <nombre>Banana a granel</nombre>
+        <descripcion>1kg aprox</descripcion>
+        <precio>1.45</precio>
+        <periodoVigencia>31/04/2023</periodoVigencia>
+        <oferta>false</oferta>
+        <adquirido>true</adquirido>
+        <supermercado>
+          <nombre>Carrefour</nombre>
+          <direccion>Glorieta de Cuatro Caminos</direccion>
+          <provincia>Madrid</provincia>
+        </supermercado>
+      </productos>
+      <productos>
+        <nombre>Banana a granel</nombre>
+        <descripcion>Paquete 1kg</descripcion>
+        <precio>1.59</precio>
+        <periodoVigencia>20/04/2023</periodoVigencia>
+        <oferta>false</oferta>
+        <adquirido>false</adquirido>
+        <supermercado>
+          <nombre>Alcampo</nombre>
+          <direccion>Calle San Geronimo</direccion>
+          <provincia>Madrid</provincia>
+        </supermercado>
+      </productos>
+    </tipo>
+  </compra>
+</root>

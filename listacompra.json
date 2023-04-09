@@ -1,0 +1,168 @@
+{
+    "compra":[
+        {
+            "seccion":"Pasta",
+            "tipo":[
+                {
+                "nombre":"Espaguetti",
+                "productos":[
+                    {
+                        "nombre": "DIA Espaguetis al diante",
+                        "descripcion": "Espaguetis pasta, precio normal 1.18",
+                        "precio":1.00,
+                        "periodoVigencia":"12/12/2023",
+                        "oferta":true,
+                        "adquirido":false,
+                        "supermercado":{
+                            "nombre":"DIA",
+                            "direccion":"Calle Jacinto Benavente",
+                            "provincia":"Madrid"
+                        }
+                    },
+                    {
+                        "nombre": "Hacendado Espaguetti pasta",
+                        "descripcion": "Paquete 1kg",
+                        "precio":1.18,
+                        "periodoVigencia":"25/12/2023",
+                        "oferta":false,
+                        "adquirido":false,
+                        "supermercado":{
+                            "nombre":"Mercadona",
+                            "direccion":"Calle Lerida",
+                            "provincia":"Madrid"
+                        }
+                    },
+                    {
+                        "nombre": "Tallarines",
+                        "descripcion": "Paquete 500g",
+                        "precio":0.79,
+                        "periodoVigencia":"12/11/2023",
+                        "oferta":false,
+                        "adquirido":false,
+                        "supermercado":{
+                            "nombre":"Eroski",
+                            "direccion":"Calle Sancho Davila",
+                            "provincia":"Madrid"
+                        } 
+                    }
+                ]
+                }
+            ],
+            "tipo":[
+                {
+                    "nombre":"Macarrones",
+                    "productos":[
+                        {
+                            "nombre": "DIA Macarrones al diante",
+                            "descripcion": "Paquete 500g",
+                            "precio":0.82,
+                            "periodoVigencia":"12/12/2023",
+                            "oferta":false,
+                            "adquirido":false,
+                            "supermercado":{
+                                "nombre":"DIA",
+                                "direccion":"Calle Jacinto Benavente",
+                                "provincia":"Madrid"
+                            }
+                        },
+                        {
+                            "nombre": "Hacendado Macarron pasta",
+                            "descripcion": "Paquete 1kg",
+                            "precio":1.24,
+                            "periodoVigencia":"12/11/2023",
+                            "oferta":false,
+                            "adquirido":false,
+                            "supermercado":{
+                                "nombre":"Mercadona",
+                                "direccion":"Calle Lerida",
+                                "provincia":"Madrid"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "seccion":"Fruta",
+            "tipo":[
+                {
+                "nombre":"Manzanas",
+                "productos":[
+                    {
+                        "nombre": "Manzana Golden",
+                        "descripcion": "Paquete 1kg",
+                        "precio":1.95,
+                        "periodoVigencia":"21/04/2023",
+                        "oferta":false,
+                        "adquirido":true,
+                        "supermercado":{
+                            "nombre":"DIA",
+                            "direccion":"Calle Jacinto Benavente",
+                            "provincia":"Madrid"
+                        }
+                    },
+                    {
+                        "nombre": "Manzana Golden Carrefour",
+                        "descripcion": "Paquete 1.5kg",
+                        "precio":2.39,
+                        "periodoVigencia":"20/04/2023",
+                        "oferta":false,
+                        "adquirido":false,
+                        "supermercado":{
+                            "nombre":"Carrefour",
+                            "direccion":"Glorieta de Cuatro Caminos",
+                            "provincia":"Madrid"
+                        }
+                    },
+                    {
+                        "nombre": "Manzana Fuji",
+                        "descripcion": "Paquete 1kg",
+                        "precio":2.19,
+                        "periodoVigencia":"31/04/2023",
+                        "oferta":false,
+                        "adquirido":false,
+                        "supermercado":{
+                            "nombre":"Carrefour",
+                            "direccion":"Glorieta de Cuatro Caminos",
+                            "provincia":"Madrid"
+                        } 
+                    }
+                ]
+                }
+            ],
+            "tipo":[
+                {
+                    "nombre":"Platanos",
+                    "productos":[
+                        {
+                            "nombre": "Banana a granel",
+                            "descripcion": "1kg aprox",
+                            "precio":1.45,
+                            "periodoVigencia":"31/04/2023",
+                            "oferta":false,
+                            "adquirido":true,
+                            "supermercado":{
+                                "nombre":"Carrefour",
+                                "direccion":"Glorieta de Cuatro Caminos",
+                                "provincia":"Madrid"
+                            }
+                        },
+                        {
+                            "nombre": "Banana a granel",
+                            "descripcion": "Paquete 1kg",
+                            "precio":1.59,
+                            "periodoVigencia":"20/04/2023",
+                            "oferta":false,
+                            "adquirido":false,
+                            "supermercado":{
+                                "nombre":"Alcampo",
+                                "direccion":"Calle San Geronimo",
+                                "provincia":"Madrid"
+                            }
+                        }
+                    ]
+                }
+            ]            
+        }
+    ]
+}
